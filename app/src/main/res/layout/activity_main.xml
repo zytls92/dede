@@ -1,0 +1,39 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#a49f85">
+
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_id"
+            android:hint="input your ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edit_pw"
+            android:hint="input your PW"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_log"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:onClick="onClick1"
+        android:text="로그인" />
+    <Button
+        android:id="@+id/btn_join"
+        android:onClick="onClick"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:text="회원가입"/>
+
+</LinearLayout>

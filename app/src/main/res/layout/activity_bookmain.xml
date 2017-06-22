@@ -1,0 +1,27 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="도서조회"
+        android:textSize="30dp"
+        android:id="@+id/btn_search"/>
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="도서 예약"
+        android:textSize="30dp"
+        android:id="@+id/btn_reservation"/>
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="도서 갱신"
+        android:textSize="30dp"
+        android:id="@+id/btn_renew"/>
+
+</LinearLayout>

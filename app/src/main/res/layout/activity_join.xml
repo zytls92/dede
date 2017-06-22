@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:hint="아이디"/>
+        <EditText
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:hint="이름"/>
+        <EditText
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:hint="패스워드"/>
+        <EditText
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:hint="패스워드 확인"/>
+        <EditText
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:hint="성별"/>
+        <EditText
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:hint="전화번호"/>
+        <Button
+            android:onClick="onClick"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:text="가입"
+            android:id="@+id/btn_endJoin"/>
+
+    </LinearLayout>
+
+
+        <Button
+            android:text="중복확인"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_checkOverlap"/>
+</LinearLayout>

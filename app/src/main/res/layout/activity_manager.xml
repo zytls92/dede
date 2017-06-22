@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="도서추가"
+        android:textSize="30dp"
+        android:id="@+id/btn_addBook"/>
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="도서삭제"
+        android:textSize="30dp"
+        android:id="@+id/btn_removeBook"/>
+
+</LinearLayout>

@@ -38,18 +38,13 @@ public class BookMadb extends SQLiteOpenHelper {
     private void initTable(SQLiteDatabase db) {
 
         //db.execSQL( "Insert into reservation values (null, \"12345\", \"만화책\", \"2017-06-09 15:00:00\", \"2017-06-11 15:00:00\", 0) ");
-        db.execSQL( "Insert into book values (null, \"책1\", \"뺑덕\", \"가나출판사\", 5) ");
-        db.execSQL( "Insert into book values (null, \"책2\", \"심청\", \"지학사\", 1) ");
-        db.execSQL( "Insert into book values (null, \"책3\", \"변사또\", \"가출판사\", 0) ");
-        db.execSQL( "Insert into book values (null, \"책4\", \"이몽룡\", \"지학사\", 2) ");
-        db.execSQL( "Insert into book values (null, \"책5\", \"춘향\", \"뉴출판사\", 3) ");
-        db.execSQL( "Insert into book values (null, \"책6\", \"홍길동\", \"동아출판사\", 2) ");
-        db.execSQL( "Insert into user values (null, \"11111\", \"1111\", \"민수\", \"01000000001\") ");
-        db.execSQL( "Insert into user values (null, \"22222\", \"1111\", \"정우\", \"01000000002\") ");
-        db.execSQL( "Insert into user values (null, \"33333\", \"1111\", \"현석\", \"01000000003\") ");
-        db.execSQL( "Insert into user values (null, \"44444\", \"1111\", \"형조\", \"01000000004\") ");
-        db.execSQL( "Insert into user values (null, \"55555\", \"1111\", \"정호\", \"01000000005\") ");
-        db.execSQL( "Insert into user values (null, \"66666\", \"1111\", \"성환\", \"01000000006\") ");
+        db.execSQL( "Insert into book values (null, \"파이썬기초\", \"조민수\", \"가나\", 5) ");
+        db.execSQL( "Insert into book values (null, \"색체심리학\", \"조명진\", \"지학사\", 1) ");
+        db.execSQL( "Insert into book values (null, \"c프로그래밍\", \"김정우\", \"교학사\", 3) ");
+        db.execSQL( "Insert into book values (null, \"자료구조\", \"김현석\", \"지학사\", 2) ");
+        db.execSQL( "Insert into book values (null, \"디지털논리\", \"이형조\", \"new\", 3) ");
+        db.execSQL( "Insert into book values (null, \"자바바이블\", \"김철기\", \"항공사\", 2) ");
     }
+
 
 }

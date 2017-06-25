@@ -12,27 +12,23 @@
         <EditText
             android:layout_width="120sp"
             android:layout_height="wrap_content"
-            android:hint="아이디"/>
+            android:hint="아이디"
+            android:id="@+id/edi_inputid"/>
         <EditText
             android:layout_width="120sp"
             android:layout_height="wrap_content"
-            android:hint="이름"/>
+            android:hint="패스워드"
+            android:id="@+id/edi_inputpwd"/>
         <EditText
             android:layout_width="120sp"
             android:layout_height="wrap_content"
-            android:hint="패스워드"/>
+            android:hint="이름"
+            android:id="@+id/edi_inputname"/>
         <EditText
             android:layout_width="120sp"
             android:layout_height="wrap_content"
-            android:hint="패스워드 확인"/>
-        <EditText
-            android:layout_width="120sp"
-            android:layout_height="wrap_content"
-            android:hint="성별"/>
-        <EditText
-            android:layout_width="120sp"
-            android:layout_height="wrap_content"
-            android:hint="전화번호"/>
+            android:hint="전화번호"
+            android:id="@+id/edi_inputphonum"/>
         <Button
             android:onClick="onClick"
             android:layout_width="120sp"
@@ -41,11 +37,4 @@
             android:id="@+id/btn_endJoin"/>
 
     </LinearLayout>
-
-
-        <Button
-            android:text="중복확인"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/btn_checkOverlap"/>
 </LinearLayout>

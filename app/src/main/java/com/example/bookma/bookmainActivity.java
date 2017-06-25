@@ -12,7 +12,7 @@ import android.widget.Button;
 
 public class bookmainActivity extends Activity
 {
-    private BookMadb db;
+    private BookMadb db,db1;
     private Context context;
 
     @Override
@@ -22,6 +22,7 @@ public class bookmainActivity extends Activity
         context = this;
 
         db = new BookMadb(this, "book", null, UTIL.DB_VERSION);
+        db1 = new BookMadb(this, "user", null, UTIL.DB_VERSION);
         Log.e("!!!" ,"db create");
 
         Button btnSearch = (Button) findViewById(R.id.btn_search);
@@ -86,7 +87,7 @@ public class bookmainActivity extends Activity
         return result;
     }
     public String getUserResult() {
-        SQLiteDatabase dbq = db.getReadableDatabase();
+        SQLiteDatabase dbq = db1.getReadableDatabase();
         String result = "";
 
         Cursor cursor = dbq.rawQuery("SELECT * FROM user", null);

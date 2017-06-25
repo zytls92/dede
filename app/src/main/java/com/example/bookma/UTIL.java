@@ -5,5 +5,5 @@ package com.example.bookma;
  */
 
 public class UTIL {
-    public static final int DB_VERSION = 4;
+    public static final int DB_VERSION = 21;
 }
